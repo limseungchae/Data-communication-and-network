@@ -1,0 +1,28 @@
+1. OSI 모델
+OSI : Open System Interconnection
+OSI 모델의 목적: 기본적인 하드웨어 또는 소프트웨어의 변경 없이 서로 다른 시스템간에 개방 통신을 위한 것
+
+
+2. 물리층(Physical Layer)
+물리층은 개별 비트들을 한 노드에서 다음 노드로 전달하는 책임을 갖는다.
+The physical layer is responsible for movements of individual bits from one hop (node) to the next.
+3. 데이터 링크층(data link layer)
+데이터링크층은 한 노드에서 다른 노드로 프레임을 전송하는 책임을 갖는다.
+The data link layer is responsible for moving frames from one hop (node) to the next.
+4. 네트워크층(network layer)
+네트워크 계층은 발신지 호스트로부터 최종 목적지 호스트로 패킷을 전달하는 책임을 갖는다.
+The network layer is responsible for the delivery of individual packets from the source host to the destination host.
+5. 전송층(transport layer)
+전송층은 하나의 프로세스로부터 다른 프로세스로 메시지를 전달하는 책임을 진다.
+The transport layer is responsible for the delivery of a message from one process to another.
+6. 세션층(Session Layer)
+세션층은 대화 제어와 동기화에 책임을 갖는다.
+The session layer is responsible for dialog control and synchronization
+7. 표현층(Presentation Layer)
+표현층은 변환, 압축, 암호화에 책임을 갖는다.
+The presentation layer is responsible for translation, compression, and encryption.
+8. 응용층(application layer)
+응용 층은 사용자에게 서비스를 제공하는 책임을 진다.
+The application layer is responsible for providing services to the user.
+9. TCP/IP 프로토콜 그룹
+TCP/IP 프로토콜 그룹(protocol suite)의 계층구조는 OSI 모델과 정확하게 일치하지 않는다.
